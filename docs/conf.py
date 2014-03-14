@@ -25,7 +25,11 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.todo']
+extensions = [
+    'sphinx.ext.todo',
+    'sphinxcontrib.actdiag',
+    'sphinxcontrib.blockdiag',
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -41,7 +45,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Karaage'
-copyright = u'2014, Brian May'
+copyright = u'2014, V3'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -165,7 +169,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Karaage-admin'
+htmlhelp_basename = 'Karaage-srs'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -184,7 +188,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'Karaage.tex', u'Karaage Admin Documentation',
+  ('index', 'Karaage-srs.tex', u'Karaage SRS',
    u'Brian May', 'manual'),
 ]
 
@@ -214,7 +218,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'karaage', u'Karaage Admin Documentation',
+    ('index', 'karaage-srs', u'Karaage SRS',
      [u'Brian May'], 1)
 ]
 
@@ -228,7 +232,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'Karaage', u'Karaage Admin Documentation',
+  ('index', 'Karaage-srs', u'Karaage SRS',
    u'Brian May', 'Karaage', 'Karaage is a cluster account management tool.',
    'Miscellaneous'),
 ]
@@ -246,10 +250,10 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'Karaage Admin Documentation'
+epub_title = u'Karaage SRS'
 epub_author = u'Brian May'
-epub_publisher = u'Brian May'
-epub_copyright = u'2014, Brian May'
+epub_publisher = u'V3'
+epub_copyright = u'2014, V3'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
