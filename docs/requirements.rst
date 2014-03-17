@@ -17,6 +17,11 @@ web browser loaded on their computer.
 The user interface should be easy, simple, and obvious to use for
 all target users of Karaage, as per :ref:`user_characteristics`.
 
+.. figure:: karaage-as-person.png
+   :scale: 70%
+
+   Karaage, as seen by a person.
+
 Software Interfaces
 ~~~~~~~~~~~~~~~~~~~
 Karaage needs access to external :term:`data stores`, which at present time
