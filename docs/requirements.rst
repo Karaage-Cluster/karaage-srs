@@ -208,16 +208,16 @@ users can:
 
 Project leaders
 """""""""""""""
-Users are in the :term:`project leaders` role if they access Karaage and log in as
-a person, *and they are marked as a leader for a project*. These
-users can:
+Users are in the :term:`project leaders` role if they access Karaage and log in
+as a person, *and they are marked as a leader for a project*. These users can:
 
 *   View details for people in project they lead.
-*   View details for projects that they lead
-*   Approve/Decline applications to join their project.
-*   Reset passwords for their members.
+*   View details for projects that they lead.
+*   Approve/Decline applications to join their project as project leader.
 *   Track their resource utilisation and software utilisation.
 *   Edit project (restricted set of fields).
+*   Grant project members leadership role.
+*   Revoke project members leadership role.
 
 Institute delegates
 """""""""""""""""""
@@ -227,10 +227,17 @@ users can:
 
 *   View details for people in institute they delegate.
 *   View details for people in project for institute they delegate.
-*   View details for projects for institute they delegate.
 *   View details for institutes they delegate.
-*   Approve/Decline project applications.
-*   Manage all projects and users under the institute.
+*   Approve/Decline applications to create new projects in institute.
+
+For all projects in the institute they delegate:
+
+*   View details for people in the project.
+*   View details for project.
+*   Track their resource utilisation and software utilisation.
+*   Edit project (restricted set of fields).
+*   Grant project members leadership role.
+*   Revoke project members leadership role.
 
 Administrators
 """"""""""""""
